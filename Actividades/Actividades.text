@@ -1,0 +1,23 @@
+Agregar Menu ordenamiento al desafío 01
+Al desafío 01 deben agregarle tres opciones nuevas.
+
+* 10 - Ordenar los heroes por poder ascendente y mostrarlos.
+* 11 - Ordenar los heroes por altura descendente y mostrarlos.
+* 12 - Ordenar los heroes por poder y que el usuario decida ASC o DES.
+
+Con lo cual la opcion salir será ahora la n° 13.
+El algoritmo de ordenamiento a usar queda a elección de ustedes en cada ejercicio pero a unica condicion es que usen un algoritmo distinto en cada uno de los 3 ejercicios.
+url = git@box.github.com:banzai-ko/Python_UTN_Programacion_1.git
+
+
+Funcion multiplicadora de matrices
+
+Crear una funcion que reciba dos matrices por parametro, dentro tendra que multiplicar cada una de sus celdas y retornar una matriz resultante correcta.
+
+La funcion tiene que tener su respectiva documentacion la cual debe indicar:
+* Que hace
+* Que recibe
+* Que retorna
+
+Video del proceso de multiplicacion de matrices
+ video: https://www.youtube.com/watch?v=EgokLSfRE54&t=1s
