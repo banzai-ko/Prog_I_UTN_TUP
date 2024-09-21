@@ -3,14 +3,14 @@ from random import shuffle
 
 # Quick Sort function
 def quick_sort(arr: list[int]):
-    if len(arr) <= 1:
+    if len(arr) < 2:
         return arr
     else:
-        pivot = arr[len(arr) // 2]  # Choosing the middle element as pivot
-        left = [x for x in arr if x < pivot]
+        pivot = arr.pop()
+        menores = [x for x in arr if x < pivot]
         middle = [x for x in arr if x == pivot]
-        right = [x for x in arr if x > pivot]
-        return quick_sort(left) + middle + quick_sort(right)
+        mayores = [x for x in arr if x > pivot]
+        return quick_sort(menores) + middle + quick_sort(mayores)
 
 # Create a shuffled list of 100,000 elements
 arr = list(range(500000))

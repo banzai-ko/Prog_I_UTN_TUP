@@ -7,7 +7,7 @@ shuffle(lista)
 
 def bubble_sort(list):
     n = len(list)
-    # Traverse through all elements in the listay
+    # Traverse through all elements in the lista
     for i in range(n):
         # Flag to check if any swapping occurs
         swapped = False
